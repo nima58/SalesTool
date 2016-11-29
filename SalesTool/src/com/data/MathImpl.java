@@ -4,6 +4,7 @@ public class MathImpl implements Math {
 
 	@Override
 	public Double add(Double a, Double b) {
+		System.out.println("Add " + a + " and " + b);
 		return a + b;
 	}
 
